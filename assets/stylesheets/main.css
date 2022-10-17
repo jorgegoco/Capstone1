@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  height: 648px;
+  background-image: url("../images/mobile_header_background.png");
+  background-size: 100% 648px;
+}
+
+.fa-bars {
+  margin-top: 5%;
+  margin-left: 5%;
+}
