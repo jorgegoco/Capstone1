@@ -7,7 +7,7 @@
   font-style: normal;
 }
 
-header {
+.main-header {
   background-image: url("../images/mobile_header_background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,6 +20,7 @@ header {
 .fa-bars {
   margin-top: 5%;
   margin-left: 5%;
+  cursor: pointer;
 }
 
 .header-title {
@@ -53,7 +54,7 @@ header {
   padding-bottom: 130px;
 }
 
-main {
+.main-main {
   background-color: black;
   padding-bottom: 30px;
 }
@@ -190,7 +191,7 @@ main {
     display: none;
   }
 
-  header {
+  .main-header {
     background-image: url("../images/desktop_header_background.png");
   }
 
