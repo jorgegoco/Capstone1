@@ -13,6 +13,10 @@ header {
   background-size: cover;
 }
 
+.desktop-menu {
+  display: none;
+}
+
 .fa-bars {
   margin-top: 5%;
   margin-left: 5%;
@@ -24,8 +28,9 @@ header {
   color: #ec5242;
 }
 
-h1 {
+.header-title h1 {
   font-weight: 900;
+  font-size: 48px;
 }
 
 .header-paragraph {
@@ -33,6 +38,9 @@ h1 {
   margin: 20px;
   padding: 20px;
   border: 5px solid white;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .main-date {
@@ -42,7 +50,7 @@ h1 {
 .main-twitter {
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 130px;
 }
 
 main {
@@ -58,10 +66,10 @@ main {
 
 .red-line {
   height: 1.5px;
-  width: 10%;
+  width: 30px;
   margin: auto;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
   background-color: #ec5242;
 }
 
@@ -101,6 +109,10 @@ main {
   margin: 40px 20% 0 20%;
   padding: 10px;
   background-color: #ec5242;
+}
+
+.desktop-footer-title {
+  display: none;
 }
 
 .speakers-title {
@@ -147,4 +159,162 @@ main {
  .speaker-paragraph {
   font-size: 11px;
   font-weight: 700;
+ }
+
+ .sponsors {
+  background-color: #3e3c3c;
+ }
+
+ .sponsors-title {
+  padding-top: 30px;
+  text-align: center;
+  color: rgb(156, 150, 150);
+ }
+
+ .all-sponsors {
+  list-style-type: none;
+  margin-top: 40px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 20px;
+ }
+
+ @media (min-width: 768px) {
+
+  .mobile-menu {
+    display: none;
+  }
+
+  header {
+    background-image: url("../images/desktop_header_background.png");
+  }
+  
+  .desktop-menu {
+    display: block;
+  }
+
+  .first-desktop-nav {
+    padding-right: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    background-color: #3e3c3c;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+  }
+
+  .first-desktop-nav li {
+    color: rgb(206, 202, 202);
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .second-desktop-nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 7%;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20%;
+    list-style-type: none;
+  }
+
+  .second-desktop-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .second-desktop-nav a:hover {
+    color: #ec5242;
+  }
+
+  .header-title {
+    padding-left: 10%;
+  }
+
+  .header-title h2 {
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .header-title h1 {
+    font-size: 70px;
+  }
+
+  .header-paragraph {
+    margin-left: 14%;
+    margin-right: 50%;
+  }
+
+  .main-date {
+    text-align:start;
+    margin-left: 14%;
+  }
+
+  .main-twitter {
+    text-align:start;
+    margin-left: 14%;
+  }
+
+  .main-program {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .main-row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 7px;
+    background-color: #242222;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 7px;
+    padding-bottom: 9px;
+  }
+
+  .main-row p {
+    color: rgb(206, 202, 202);
+    width: 80%;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .main-footer-title {
+    display: none;
+  }
+
+  .desktop-footer-title {
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .desktop-footer-title a {
+    color: rgb(206, 202, 202);
+    font-size: 13px;
+  }
+
+  .speakers-all {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 40px;
+  }
  }
