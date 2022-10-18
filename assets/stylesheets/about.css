@@ -29,6 +29,10 @@
   color: #ec5242;
 }
 
+.red-line-desktop {
+  display: none;
+}
+
 .header-title h1 {
   font-weight: 900;
   font-size: 48px;
@@ -84,7 +88,7 @@
 }
 
 .image-logo {
-  width:350px;
+  width: 350px;
   display: block;
   margin: auto;
   padding: 15px 15%;
@@ -204,20 +208,46 @@
   }
 
   .header-title h1 {
-    font-size: 70px;
+    font-size: 50px;
+  }
+
+  .red-line-desktop {
+    display: block;
+    height: 1.5px;
+    width: 30px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #ec5242;
   }
 
   .header-paragraph {
-    margin-left: 14%;
-    margin-right: 50%;
+    width: 80%;
+    margin: auto;
   }
 
-  .main-email {
-    text-align: start;
-    margin-left: 14%;
+  .image-logo {
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding: 25px 10%;
+    border: 1px solid rgb(234, 229, 229);
+    margin-bottom: 70px;
+    margin-top: 50px;
+  }
+  .past-images {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+    column-gap: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
 
-  
+  .past-image {
+    width: 50%;
+  }
+
   .second-desktop-nav a:hover {
     color: #ec5242;
   }

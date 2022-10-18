@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About</title>
   <link rel="stylesheet" href="assets/stylesheets/about.css">
+  <link rel="stylesheet" href="assets/stylesheets/popup.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
+  <div class="mobile-popup-menu">
+    <div id="menu-mobile">
+      <img id="close-button" src="./assets/images/close-icon.svg" alt="close button">
+      <ul class="contain-menu-link">
+        <li><a class="menu-link" href="./index.html">Home</a></li>
+        <li><a class="menu-link" href="./about.html">About</a></li>
+        <li><a class="menu-link" href="#">Program</a></li>
+        <li><a class="menu-link" href="#">Join</a></li>
+        <li><a class="menu-link" href="#">Sponsor</a></li>
+        <li><a class="menu-link" href="#">News</a></li>
+      </ul>
+      <hr class="menu-red-line">
+    </div>
+  </div>
+  <div class="main-page">
+
     <header class="about-header">
       <nav class="mobile-menu"><i class="fa fa-bars fa-3x"></i></nav>
       <nav class="desktop-menu">
@@ -22,7 +41,7 @@
           <li>Logout</li>
         </ul>
         <ul class="second-desktop-nav">
-          <li><a href="./about.html">About</a></li>
+          <li><a href="#">About</a></li>
           <li><a href="#">Program</a></li>
           <li><a href="#">Join</a></li>
           <li><a href="#">Sponsor</a></li>
@@ -32,30 +51,40 @@
       <div class="header-title">
         <h2>"Hello, Sharing world!"</h2>
         <h1>Digital Nomads<br>Global Summit<br>2022</h1>
+        <hr class="red-line-desktop">
       </div>
-      <p class="header-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+      <p class="header-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+        quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
       </p>
-      <P class="main-email">Please contact us per Email for any further questions<br>about Digital Nomads Global Summit 2022!<br><a href="#">dnsummit2022@dn.org</a></P>
-  
+      <P class="main-email">Please contact us per Email for any further questions<br>about Digital Nomads Global Summit
+        2022!<br><a href="#">dnsummit2022@dn.org</a></P>
+
     </header>
     <main>
-    <section class="logo">
-      <h2 class="logo-title">Digital Nomads<br>Gloval Summit 2022 Logo</h2>
-      <hr class="red-line">
-      <p class="logo-paragraph">The logo of Digital Nomads Global Summitt 2022 was decided through the logo competition from 8.June to .July.</p>
-      <img src="./assets/images/logo.png" class="image-logo" alt="logo">
-      <hr class="logo-grey-line">
-    </section>
-    <section class="past">
-      <h2 class="past-title">See the past Global Summits</h2>
-      <hr class="red-line">
-      <p class="past-paragraph">Take a look at the two last Global Summits which took place in Buenos Aires and Varsovia</p>
-      <img src="./assets/images/past_2011.png" class="past-image" alt="summit 2011">
-      <img src="./assets/images/past_2013.png" class="past-image" alt="summit 2013">
-      
-    </section>
-  </main>
-   
+      <section class="logo">
+        <h2 class="logo-title">Digital Nomads<br>Gloval Summit 2022 Logo</h2>
+        <hr class="red-line">
+        <p class="logo-paragraph">The logo of Digital Nomads Global Summitt 2022 was decided through the logo
+          competition
+          from 8.June to .July.</p>
+        <img src="./assets/images/logo.png" class="image-logo" alt="logo">
+        <hr class="logo-grey-line">
+      </section>
+      <section class="past">
+        <h2 class="past-title">See the past Global Summits</h2>
+        <hr class="red-line">
+        <p class="past-paragraph">Take a look at the two last Global Summits which took place in Buenos Aires and
+          Varsovia
+        </p>
+        <div class="past-images">
+          <img src="./assets/images/past_2011.png" class="past-image" alt="summit 2011">
+          <img src="./assets/images/past_2013.png" class="past-image" alt="summit 2013">
+        </div>
+
+      </section>
+    </main>
+
     </section>
     <section class="sponsors">
       <h3 class="sponsors-title">Partner</h3>
@@ -68,6 +97,9 @@
         <li><img src="./assets/images/airbnb.png" alt="Airbnb"></li>
       </ul>
     </section>
-  
+  </div>
+  <script src="./assets/scripts/about.js"></script>
+
 </body>
+
 </html>
