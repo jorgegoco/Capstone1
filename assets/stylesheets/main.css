@@ -99,6 +99,12 @@
   color: #ec5242;
 }
 
+footer p {
+  font-size: 11px;
+  font-weight: 700;
+  color: #8a7f7f;
+}
+
 .main-row p {
   color: white;
   width: 50%;
@@ -193,12 +199,6 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   column-gap: 20px;
-}
-
-footer p {
-  font-size: 11px;
-  font-weight: 700;
-  color: #8a7f7f;
 }
 
 .main-row:hover {
