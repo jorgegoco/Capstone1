@@ -40,7 +40,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-   Cindy Shin is the author of the original design. 
+   Original design idea by Cindy Shin in Behance.
 ## 📝 License
 This project is MIT licensed.
 
