@@ -180,20 +180,26 @@
     font-weight: 700;
   }
 
+  .nav-logo {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .second-desktop-nav {
     display: flex;
     justify-content: center;
-    column-gap: 7%;
-    background-color: white;
+    column-gap: 20%;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 20%;
+    padding-right: 10%;
     list-style-type: none;
   }
 
   .second-desktop-nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(123, 122, 122);
     font-weight: 700;
     font-size: 14px;
   }
