@@ -44,7 +44,7 @@ const speakers = [
   },
 ];
 
-for(let i = 0; i < speakers.length; i += 1) {
+for (let i = 0; i < speakers.length; i += 1) {
   const speakersAll = document.querySelector('.speakers-all');
   const speaker = document.createElement('div');
   speaker.className = 'speaker';
