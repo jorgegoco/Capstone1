@@ -1,16 +1,42 @@
-# Capstone1
+<div align="center">
 
-HTML/CSS & JavaScript capstone project - Conference page.
+  <img src="./murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Built With
+  <h3><b>Microverse README Template</b></h3>
 
-HTML,CSS and JavaScript
+</div>
 
-## Live Demo 
+# 📗 Table of Contents
 
-[Live Demo Link](https://jorgegoco.github.io/Capstone1/)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## Getting Started
+
+# 📖 Capstone1 <a name="about-project"></a>
+
+
+**Capstone1** is a Conference page website built with basic HTML, CSS, and JavaScript.  
+  
+    
+## 🛠 Built With <a name="built-with"></a>
+
+  HTML, CSS, and JavaScript  
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://jorgegoco.github.io/Capstone1/)
+
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 ### To Access my project locally you can follow these steps
 
@@ -18,50 +44,39 @@ HTML,CSS and JavaScript
 2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
 3. Select download Zip option from drop down menu.
 4. Once the download is complete you will be able to access my project locally.
-Here is my repository link:  https://github.com/jorgegoco/Capstone1.git
 
-## Authors
+
+## 👥 Authors <a name="authors"></a>
+
 
 👤 **Jorge**
 
 - GitHub: [@jorgegoco](https://github.com/jorgegoco)
 - Twitter: [@jorgegoco](https://twitter.com/JorgeGo78017548)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/jorge-gonzález-b1a50714b)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jorge-gonz%C3%A1lez-b1a50714b/)
 
 
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-here
+
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+
+If you like this project kindly give me a star.
+
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Original design idea by **Cindy Shin** in [Behance](https://www.behance.net/adagio07). 
 
-## 📝 License
-This project is MIT licensed.
 
-Copyright (c) [2022] 
+## 📝 License <a name="license"></a>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This project is [MIT](./MIT.md) licensed.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHERS
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
